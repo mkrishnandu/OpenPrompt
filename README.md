@@ -4,7 +4,6 @@
 
 Tired of re-typing the same instructions into ChatGPT, Claude, Gemini, or GitHub Copilot? OpenPrompt allows you to create, organize, and instantly inject your best AI templates into any text box across the web. 
 
-[👉 Download on the Chrome Web Store]() *<-- (Add your link here once published)*
 
 ## 🚀 Key Features
 
