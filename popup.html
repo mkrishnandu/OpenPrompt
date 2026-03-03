@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container" id="mainView">
+        <header>
+            <h2>OpenPrompt</h2>
+            <button id="settingsBtn" class="icon-btn" title="Settings">⚙️</button>
+        </header>
+        
+        <div class="card input-section">
+            <input type="text" id="title" placeholder="Prompt Title (e.g., Fix Code)">
+            <textarea id="text" placeholder="Use brackets for variables (e.g., Translate to [Language])"></textarea>
+            <input type="text" id="category" placeholder="Category (e.g., Coding)">
+            <div class="form-actions">
+                <button id="saveBtn" class="primary-btn">Save Prompt</button>
+                <button id="cancelBtn" class="secondary-btn hidden">Cancel</button>
+            </div>
+        </div>
+
+        <div class="data-actions">
+            <button id="exportBtn" class="secondary-btn">📤 Export</button>
+            <input type="file" id="importFile" accept=".json" style="display: none;">
+            <button id="importBtn" class="secondary-btn">📥 Import</button>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="search" placeholder="🔎︎ Search prompts...">
+        </div>
+        
+        <div id="categoryFilters" class="filter-section"></div>
+
+        <div id="promptList" class="scroll-area"></div>
+    </div>
+
+<div class="container hidden" id="settingsView">
+        <header>
+            <h2>⚙️ Settings</h2>
+            <button id="backBtn" class="icon-btn" title="Back">🔙</button>
+        </header>
+
+        <div class="card">
+            <label style="font-size: 13px; font-weight: 600; margin-bottom: 8px; display: block;">Enable Floating Button on Sites:</label>
+            <p style="font-size: 11px; color: var(--text-muted); margin-top: 0;">Add one domain per line (e.g., chatgpt.com)</p>
+            <textarea id="sitesTextarea" style="min-height: 120px;"></textarea>
+            <button id="saveSitesBtn" class="primary-btn">Save Settings</button>
+        </div>
+        
+        
+        <div class="card" style="margin-bottom: 8px;">
+            <label style="font-size: 13px; font-weight: 600; margin-bottom: 8px; display: block;">Theme:</label>
+            <select id="themeSelect" style="width: 100%; padding: 8px; border-radius: 8px; background: var(--input-bg); color: var(--text-main); border: 1px solid var(--glass-border); font-family: inherit; outline: none;">
+                <option value="system">System Default</option>
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+            </select>
+        </div>
+
+
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
