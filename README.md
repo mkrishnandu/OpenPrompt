@@ -5,7 +5,7 @@
 Tired of re-typing the same instructions into ChatGPT, Claude, Gemini, or GitHub Copilot? OpenPrompt allows you to create, organize, and instantly inject your best AI templates into any text box across the web. 
 
 
-## 🚀 Key Features
+## Key Features
 
 * **Floating Quick-Access Menu:** A non-intrusive, frosted-glass `✨` button appears automatically on popular AI websites. Click it to reveal a beautifully animated menu of your saved prompts and inject them without losing focus.
 * **Dynamic Variables (`[Variable]`):** Supercharge your templates. If a prompt includes text in brackets (e.g., *Translate this to [Language]*), OpenPrompt will generate a pop-up asking you to fill in the blanks before pasting.
@@ -14,10 +14,10 @@ Tired of re-typing the same instructions into ChatGPT, Claude, Gemini, or GitHub
 * **Glassmorphism UI & Themes:** A stunning, modern interface. Choose between a crisp Light theme, a sleek Dark theme, or let OpenPrompt automatically sync with your OS default settings.
 * **Cloud Sync & Backups:** Prompts are securely saved to your browser's native sync storage, meaning they travel with you to any computer logged into your browser profile. Export your library as a JSON file to share with your team.
 
-## 🛠️ Installation 
+## Installation 
 
 ### Method 1: Chrome Web Store
-*(Link coming soon!)*
+[*Edge Extension Store Link*](https://microsoftedge.microsoft.com/addons/detail/openprompt/cgmjljfpipmffidheepgklhhbipaokpi?hl=en-GB)
 
 ### Method 2: Manual Installation (Developer Mode)
 1. Download or clone this repository: `git clone https://github.com/mkrishnandu/OpenPrompt.git`
@@ -26,7 +26,7 @@ Tired of re-typing the same instructions into ChatGPT, Claude, Gemini, or GitHub
 4. Enable **Developer mode** using the toggle in the top right corner.
 5. Click **Load unpacked** and select the `OpenPrompt` folder.
 
-## 💡 How to Use
+## How to Use
 
 ### 1. Creating a Prompt
 Click the OpenPrompt icon in your browser toolbar to open the dashboard. Add a title, category, and your prompt text. 
@@ -41,13 +41,13 @@ Open the extension dashboard and click the **⚙️ Settings** icon. Here you ca
 * Force Light or Dark mode.
 * Add or remove websites where the floating `✨` button is allowed to appear (one domain per line).
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 OpenPrompt is fully open-source and respects your data. 
 * **No tracking, no analytics, no external servers.** * All prompts are stored locally and synced via your browser's native, encrypted Google/Microsoft sync profile (`chrome.storage.sync`).
 * The extension requests `<all_urls>` permission purely so it can inject your text into the text boxes of any website you choose to use it on.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! 
 If you have an idea to improve OpenPrompt, feel free to fork the repository, create a feature branch, and submit a Pull Request.
